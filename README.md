@@ -166,24 +166,9 @@ grupo4-simplifica/
 │       └── favicon.ico   # Ícone do site
 │
 └── build.gradle          # Dependências do Projeto
-```
----
-
-## 📡 Documentação da API (Endpoints Principais)
-
-A aplicação expõe uma API RESTful na porta 8080:
-
-| Método | Endpoint | Descrição |
-| :--- | :--- | :--- |
-| **GET** | `/dashboard/resumo-principal` | Retorna saldo, totais do mês e dados para gráficos. |
-| **GET** | `/transacoes` | Lista todas as transações. |
-| **POST** | `/transacoes` | Cria uma nova receita ou despesa. |
-| **GET** | `/metas` | Lista todas as metas financeiras. |
-| **POST** | `/metas` | Cria uma nova meta. |
-| **POST** | `/economias` | Adiciona um valor economizado a uma meta. |
-| **GET** | `/categorias` | Lista todas as categorias disponíveis. |
 
 ---
 
 **Desenvolvido pelo Grupo 4 - Alencar, Franco Lara e Gallotte**
 Desenvolvido pelo Grupo 4 - Alencar, Franco Lara e Gallotte
+
