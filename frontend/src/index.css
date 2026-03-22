@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 240px;
+  background: linear-gradient(180deg, #0b1f3a, #0f2747);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px 16px;
+}
+
+.sidebar-header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.sidebar-header p {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #cbd5e1;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.sidebar-nav a {
+  padding: 12px 14px;
+  border-radius: 8px;
+  color: #e5e7eb;
+}
+
+.sidebar-nav a:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.active-link {
+  background-color: rgba(255, 196, 0, 0.18);
+  color: #ffd54a;
+  font-weight: bold;
+}
+
+.sidebar-footer {
+  margin-top: 40px;
+  color: #94a3b8;
+}
+
+.main-content {
+  flex: 1;
+  padding: 32px;
+}
+
+.escala-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.escala-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.escala-header h1 {
+  margin: 0;
+  font-size: 34px;
+}
+
+.escala-header p {
+  margin-top: 8px;
+  color: #6b7280;
+}
+
+.escala-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.primary-button,
+.secondary-button {
+  border: none;
+  border-radius: 8px;
+  padding: 12px 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.primary-button {
+  background-color: #163b77;
+  color: white;
+}
+
+.secondary-button {
+  background-color: white;
+  border: 1px solid #d1d5db;
+  color: #374151;
+}
+
+.escala-filters {
+  display: flex;
+  gap: 16px;
+}
+
+.escala-filters select {
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  background-color: white;
+  min-width: 180px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.calendar-card {
+  min-height: 220px;
+  border-right: 1px solid #e5e7eb;
+  padding: 12px;
+}
+
+.calendar-card:last-child {
+  border-right: none;
+}
+
+.weekend {
+  background-color: #faf2f2;
+}
+
+.calendar-top {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.calendar-top span {
+  display: block;
+  font-size: 12px;
+  color: #6b7280;
+  font-weight: bold;
+}
+
+.calendar-top h2 {
+  margin: 6px 0;
+  font-size: 28px;
+}
+
+.calendar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nome-card {
+  background-color: #f3f4f6;
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.weekend .nome-card {
+  background-color: #f7dfdf;
+  color: #b45353;
+}
+
+.info-box {
+  background-color: white;
+  border: 1px solid #dbeafe;
+  border-left: 6px solid #60a5fa;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.info-box h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.info-box p {
+  margin: 0;
+  color: #6b7280;
+}

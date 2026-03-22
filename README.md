@@ -168,6 +168,17 @@ grupo4-simplifica/
 └── build.gradle          # Dependências do Projeto
 
 ---
+A integração atual é mínima
+A API de teste usa endpoint /api/status
+A conexão com banco foi temporariamente desabilitada para a demonstração inicial da integração
+
+Frontend
+React + Vite
+integração com endpoint /api/status
+Backend
+Spring Boot
+endpoint de teste:
+GET /api/status
 
 **Desenvolvido pelo Grupo 4 - Alencar, Franco Lara e Gallotte**
 Desenvolvido pelo Grupo 4 - Alencar, Franco Lara e Gallotte
